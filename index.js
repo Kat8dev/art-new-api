@@ -47,7 +47,7 @@ const newspapers = [
   {
     name: 'guardian',
     address: 'https://www.theguardian.com/artanddesign',
-    base: 'https://www.theguardian.com/',
+    base: '',
   },
   {
     name: 'telegraph',
