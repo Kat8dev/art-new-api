@@ -17,7 +17,7 @@ To set up the project and run the API server, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using:
 
-   git clone <repository_url>
+   git clone https://github.com/art-news-api.git
    
 # Installation
 
