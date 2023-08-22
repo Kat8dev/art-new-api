@@ -16,7 +16,7 @@ This project is an Express.js-based API that aggregates art-related articles fro
 To set up the project and run the API server, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using:
-   ```bash
+
    git clone <repository_url>
    
 # Installation
@@ -25,7 +25,6 @@ To set up the project and run the API server, follow these steps:
 
 **1. Install Dependencies**: Navigate to the project directory and install the required dependencies using:
 
-```bash
 npm install
 ## Running the Server
 
@@ -35,19 +34,19 @@ To start the Express server, follow these steps:
 
 2. Run the following command to start the server:
 
-   ```bash
    npm start
+   
 ## Server and Endpoints
 
 The server will run on the specified port (default is 8000) or the port specified in your environment variables.
 
 ### Available Endpoints
 
-- **GET `/`**: This endpoint provides a simple welcome message.
+- **GET /**: This endpoint provides a simple welcome message.
 
-- **GET `/news`**: Retrieves a list of aggregated art-related articles from various newspapers.
+- **GET /news**: Retrieves a list of aggregated art-related articles from various newspapers.
 
-- **GET `/news/:newspaperId`**: Fetches art-related articles specific to a given newspaper. Replace `:newspaperId` with the newspaper's identifier.
+- **GET /news/:newspaperId**: Fetches art-related articles specific to a given newspaper. Replace :newspaperId with the newspaper's identifier.
 
 ### Usage
 
@@ -57,11 +56,10 @@ This API is a useful tool for accessing art news articles from a variety of repu
 
 - **Get All Art News Articles**:
 
-   ```bash
    GET /news
+  
 ### Get Art News Articles from a Specific Newspaper (e.g., nyt):
 
-```bash
 GET /news/nyt
 
 ## Contributing
